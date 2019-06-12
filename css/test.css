@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Maitree&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Aleo:300|Merriweather:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Roboto+Condensed&display=swap');
+
+body {
+    margin-top: 0;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight:400;
+}
+
+.section-header .section-title {
+    font-size: 44px;
+    color: #272727;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+}
+
+.container-fluid {
+    padding: 0 -15px 0 -15px;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: inherit;
+}
+
+/* -- STUFF -- */
+
+@media (min-width: 1500px) {
+
+    /* --- FORM --- */
+    #form {
+        margin: 100px 0;
+        height: 100%;
+        background-color: #fff;
+    }
+
+    /*OPTION 1*/
+
+    #form #option-1 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 48px;
+        font-family: 'Open sans', sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    #form #option-1 .par-1 {
+        font-family: 'Noto serif', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-1 .par-2 {
+        font-family: 'Noto serif', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+
+    /*OPTION 2*/
+        
+    #form #option-2 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 60px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    #form #option-2 .par-1 {
+        font-family: 'Maitree', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-2 .par-2 {
+        font-family: 'Maitree', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+
+    /*OPTION 3*/
+    
+    #form #option-3 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 48px;
+        font-family: 'Oswald', serif;
+        line-height: 1.2;
+    }
+    #form #option-3 .par-1 {
+        font-family: 'Aleo', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-3 .par-2 {
+        font-family: 'Aleo', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+    /* --- FORM --- */
+    #form {
+        margin: 100px 0;
+        height: 100%;
+        background-color: #fff;
+    }
+
+    /*OPTION 1*/
+
+    #form #option-1 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 48px;
+        font-family: 'Open sans', sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    #form #option-1 .par-1 {
+        font-family: 'Noto serif', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-1 .par-2 {
+        font-family: 'Noto serif', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+
+    /*OPTION 2*/
+        
+    #form #option-2 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 60px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    #form #option-2 .par-1 {
+        font-family: 'Maitree', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-2 .par-2 {
+        font-family: 'Maitree', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+
+    /*OPTION 3*/
+    
+    #form #option-3 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 48px;
+        font-family: 'Oswald', serif;
+        line-height: 1.2;
+    }
+    #form #option-3 .par-1 {
+        font-family: 'Aleo', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-3 .par-2 {
+        font-family: 'Aleo', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+    #form {
+        margin: 100px 0;
+        height: 100%;
+        background-color: #fff;
+    }
+
+    /*OPTION 1*/
+
+    #form #option-1 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 48px;
+        font-family: 'Open sans', sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    #form #option-1 .par-1 {
+        font-family: 'Noto serif', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-1 .par-2 {
+        font-family: 'Noto serif', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+
+    /*OPTION 2*/
+        
+    #form #option-2 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 60px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    #form #option-2 .par-1 {
+        font-family: 'Maitree', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-2 .par-2 {
+        font-family: 'Maitree', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+
+    /*OPTION 3*/
+    
+    #form #option-3 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 48px;
+        font-family: 'Oswald', serif;
+        line-height: 1.2;
+    }
+    #form #option-3 .par-1 {
+        font-family: 'Aleo', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-3 .par-2 {
+        font-family: 'Aleo', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* --- FORM --- */
+    #form {
+        margin: 100px 0;
+        height: 100%;
+        background-color: #fff;
+    }
+
+    /*OPTION 1*/
+
+    #form #option-1 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 48px;
+        font-family: 'Open sans', sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    #form #option-1 .par-1 {
+        font-family: 'Noto serif', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-1 .par-2 {
+        font-family: 'Noto serif', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+
+    /*OPTION 2*/
+        
+    #form #option-2 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 60px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    #form #option-2 .par-1 {
+        font-family: 'Maitree', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-2 .par-2 {
+        font-family: 'Maitree', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+
+    /*OPTION 3*/
+    
+    #form #option-3 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 48px;
+        font-family: 'Oswald', serif;
+        line-height: 1.2;
+    }
+    #form #option-3 .par-1 {
+        font-family: 'Aleo', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-3 .par-2 {
+        font-family: 'Aleo', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+ /* --- FORM --- */
+    #form {
+        margin: 100px 0;
+        height: 100%;
+        background-color: #fff;
+    }
+
+    /*OPTION 1*/
+
+    #form #option-1 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 48px;
+        font-family: 'Open sans', sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    #form #option-1 .par-1 {
+        font-family: 'Noto serif', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-1 .par-2 {
+        font-family: 'Noto serif', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+
+    /*OPTION 2*/
+        
+    #form #option-2 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 60px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    #form #option-2 .par-1 {
+        font-family: 'Maitree', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-2 .par-2 {
+        font-family: 'Maitree', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+
+    /*OPTION 3*/
+    
+    #form #option-3 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 48px;
+        font-family: 'Oswald', serif;
+        line-height: 1.2;
+    }
+    #form #option-3 .par-1 {
+        font-family: 'Aleo', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-3 .par-2 {
+        font-family: 'Aleo', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 575px) {
+
+  /* --- FORM --- */
+    #form {
+        margin: 100px 0;
+        height: 100%;
+        background-color: #fff;
+    }
+
+    /*OPTION 1*/
+
+    #form #option-1 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 48px;
+        font-family: 'Open sans', sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    #form #option-1 .par-1 {
+        font-family: 'Noto serif', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-1 .par-2 {
+        font-family: 'Noto serif', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+
+    /*OPTION 2*/
+        
+    #form #option-2 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 60px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    #form #option-2 .par-1 {
+        font-family: 'Maitree', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-2 .par-2 {
+        font-family: 'Maitree', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+
+    /*OPTION 3*/
+    
+    #form #option-3 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 48px;
+        font-family: 'Oswald', serif;
+        line-height: 1.2;
+    }
+    #form #option-3 .par-1 {
+        font-family: 'Aleo', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-3 .par-2 {
+        font-family: 'Aleo', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 374px) {
+
+ /* --- FORM --- */
+    #form {
+        margin: 100px 0;
+        height: 100%;
+        background-color: #fff;
+    }
+
+    /*OPTION 1*/
+
+    #form #option-1 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 36px;
+        font-family: 'Open sans', sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    #form #option-1 .par-1 {
+        font-family: 'Noto serif', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 20px;
+    }
+    #form #option-1 .par-2 {
+        font-family: 'Noto serif', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 16px;
+    }
+
+    /*OPTION 2*/
+        
+    #form #option-2 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 40px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    #form #option-2 .par-1 {
+        font-family: 'Maitree', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 20px;
+    }
+    #form #option-2 .par-2 {
+        font-family: 'Maitree', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 16px;
+    }
+
+    /*OPTION 3*/
+    
+    #form #option-3 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 40px;
+        font-family: 'Oswald', serif;
+        line-height: 1.2;
+    }
+    #form #option-3 .par-1 {
+        font-family: 'Aleo', serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 20px;
+    }
+    #form #option-3 .par-2 {
+        font-family: 'Aleo', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 16px;
+    }
+}
+
+ 
