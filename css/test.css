@@ -54,16 +54,11 @@ h6 {
         background-color: #fff;
     }
 
-    /* --- OPTION TITLE --- */
-
-    .option-title h1 {
-    }
-
     /*OPTION 1*/
 
     #form #option-1 .header h1, h2, h3, h4, h5, h6 {
         margin: 35px 0;
-        font-size: 48px;
+        font-size: 3em;
         font-family: 'Open sans', sans-serif;
         font-weight: 600;
         line-height: 1.2;
@@ -72,20 +67,20 @@ h6 {
         font-family: 'Noto serif', serif;
         margin: 25px 0;
         line-height: 1.5;
-        font-size: 24px;
+        font-size: 1.5em;
     }
     #form #option-1 .par-2 {
         font-family: 'Noto serif', serif;
         margin: 15px 0 80px 0;
         line-height: 1.8;
-        font-size: 18px;
+        font-size: 1.1em;
     }
 
     /*OPTION 2*/
         
     #form #option-2 .header h1, h2, h3, h4, h5, h6 {
         margin: 35px 0;
-        font-size: 60px;
+        font-size: 3.750em;
         font-family: 'Barlow Condensed', sans-serif;
         font-weight: 600;
         line-height: 1.2;
@@ -94,20 +89,20 @@ h6 {
         font-family: 'Maitree', serif;
         margin: 25px 0;
         line-height: 1.5;
-        font-size: 24px;
+        font-size: 1.5em;
     }
     #form #option-2 .par-2 {
         font-family: 'Maitree', serif;
         margin: 15px 0 80px 0;
         line-height: 1.8;
-        font-size: 18px;
+        font-size: 1.1em;
     }
 
     /*OPTION 3*/
     
     #form #option-3 .header h1, h2, h3, h4, h5, h6 {
         margin: 35px 0;
-        font-size: 48px;
+        font-size: 3em;
         font-family: 'Oswald', serif;
         line-height: 1.2;
     }
@@ -115,20 +110,20 @@ h6 {
         font-family: 'Aleo', serif;
         margin: 25px 0;
         line-height: 1.5;
-        font-size: 24px;
+        font-size: 1.5em;
     }
     #form #option-3 .par-2 {
         font-family: 'Aleo', serif;
         margin: 15px 0 80px 0;
         line-height: 1.8;
-        font-size: 18px;
+        font-size: 1.1em;
     }
 
         /*OPTION 4*/
     
     #form #option-4 .header h1, h2, h3, h4, h5, h6 {
         margin: 35px 0;
-        font-size: 48px;
+        font-size: 3em;
         font-family: 'Roboto', sans-serif;
         line-height: 1.2;
         font-weight: 600;
@@ -137,13 +132,13 @@ h6 {
         font-family: 'Open Sans', sans-serif;
         margin: 25px 0;
         line-height: 1.5;
-        font-size: 24px;
+        font-size: 1.5em;
     }
     #form #option-4 .par-2 {
         font-family: 'Open Sans', sans-serif;
         margin: 15px 0 80px 0;
         line-height: 1.8;
-        font-size: 18px;
+        font-size: 1.1em;
     }
 }
 
