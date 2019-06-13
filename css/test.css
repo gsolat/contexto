@@ -5,6 +5,9 @@
 @import url('https://fonts.googleapis.com/css?family=Aleo:300|Merriweather:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
 
 body {
     margin-top: 0;
@@ -49,6 +52,11 @@ h6 {
         margin: 100px 0;
         height: 100%;
         background-color: #fff;
+    }
+
+    /* --- OPTION TITLE --- */
+
+    .option-title h1 {
     }
 
     /*OPTION 1*/
@@ -111,6 +119,28 @@ h6 {
     }
     #form #option-3 .par-2 {
         font-family: 'Aleo', serif;
+        margin: 15px 0 80px 0;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+
+        /*OPTION 4*/
+    
+    #form #option-4 .header h1, h2, h3, h4, h5, h6 {
+        margin: 35px 0;
+        font-size: 48px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.2;
+        font-weight: 600;
+    }
+    #form #option-4 .par-1 {
+        font-family: 'Open Sans', sans-serif;
+        margin: 25px 0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    #form #option-4 .par-2 {
+        font-family: 'Open Sans', sans-serif;
         margin: 15px 0 80px 0;
         line-height: 1.8;
         font-size: 18px;
